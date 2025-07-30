@@ -7,22 +7,22 @@ export default function App() {
     <main className="min-h-screen bg-green-50 text-gray-900 p-8 font-sans">
       <section className="text-center space-y-4">
         <motion.h1 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-4xl font-bold text-green-700">
-          👋 Hi, I'm Spurgeon Petros
+           Hi, I'm Spurgeon Petros
         </motion.h1>
         <p className="text-lg">MCA Graduate | Python Developer | Web Enthusiast</p>
-        <p>📍 Watrap, Tamil Nadu | ✉️ <a href="mailto:spurgeonpetros05@gmail.com" className="text-green-800 hover:underline">spurgeonpetros05@gmail.com</a></p>
-        <p>🔗 <a href="https://github.com/spurgeonpetros" target="_blank" className="text-green-800 hover:underline">GitHub</a></p>
+        <p> Watrap, Tamil Nadu |  <a href="mailto:spurgeonpetros05@gmail.com" className="text-green-800 hover:underline">spurgeonpetros05@gmail.com</a></p>
+        <p><a href="https://github.com/spurgeonpetros" target="_blank" className="text-green-800 hover:underline">GitHub</a></p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-green-700 mb-4">🧑‍💻 About Me</h2>
+        <h2 className="text-2xl font-semibold text-green-700 mb-4"> About Me</h2>
         <p>
           Passionate about building intelligent and user-centric applications. Currently pursuing MCA, skilled in Python, Django, and data tools like Power BI & Tableau.
         </p>
       </section>
 
       <section className="mt-8">
-        <h2 className="text-2xl font-semibold text-green-700 mb-4">🛠️ Skills</h2>
+        <h2 className="text-2xl font-semibold text-green-700 mb-4">🛠Skills</h2>
         <ul className="list-disc list-inside space-y-1">
           <li><strong>Languages:</strong> Python, HTML, CSS, JavaScript</li>
           <li><strong>Frameworks:</strong> Django</li>
@@ -32,7 +32,7 @@ export default function App() {
       </section>
 
       <section className="mt-8">
-        <h2 className="text-2xl font-semibold text-green-700 mb-4">🚀 Projects</h2>
+        <h2 className="text-2xl font-semibold text-green-700 mb-4"> Projects</h2>
         <ul className="list-disc list-inside space-y-2">
           <li><strong>E-Commerce Website:</strong> Dynamic platform with secure payment and recommendations.</li>
           <li><strong>Face Recognition Attendance System:</strong> Real-time face recognition for automated attendance.</li>
@@ -41,7 +41,7 @@ export default function App() {
       </section>
 
       <section className="mt-8">
-        <h2 className="text-2xl font-semibold text-green-700 mb-4">🎓 Education</h2>
+        <h2 className="text-2xl font-semibold text-green-700 mb-4"> Education</h2>
         <ul className="list-disc list-inside">
           <li><strong>MCA</strong> – Kalasalingam University (2023–2025), CGPA: 9.2</li>
           <li><strong>BCA</strong> – Arulmigu Kalasalingam College (2020–2023), CGPA: 84%</li>
@@ -49,7 +49,7 @@ export default function App() {
       </section>
 
       <section className="mt-8">
-        <h2 className="text-2xl font-semibold text-green-700 mb-4">🏅 Trainings & Certifications</h2>
+        <h2 className="text-2xl font-semibold text-green-700 mb-4"> Trainings & Certifications</h2>
         <ul className="list-disc list-inside space-y-1">
           <li>Zoho Creator Student Training – Young Creators Program</li>
           <li>Cyberbullying Detection Internship – Machine Learning</li>
